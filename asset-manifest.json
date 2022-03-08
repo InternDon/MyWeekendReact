@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MyWeekendReact/static/css/main.deecf893.css",
-    "main.js": "/MyWeekendReact/static/js/main.0d59d9e9.js",
+    "main.js": "/MyWeekendReact/static/js/main.b8ef8884.js",
     "static/js/787.165f98e0.chunk.js": "/MyWeekendReact/static/js/787.165f98e0.chunk.js",
     "static/media/LostArk.jpg": "/MyWeekendReact/static/media/LostArk.b4542ffbf0a89fea8713.jpg",
     "index.html": "/MyWeekendReact/index.html",
     "main.deecf893.css.map": "/MyWeekendReact/static/css/main.deecf893.css.map",
-    "main.0d59d9e9.js.map": "/MyWeekendReact/static/js/main.0d59d9e9.js.map",
+    "main.b8ef8884.js.map": "/MyWeekendReact/static/js/main.b8ef8884.js.map",
     "787.165f98e0.chunk.js.map": "/MyWeekendReact/static/js/787.165f98e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deecf893.css",
-    "static/js/main.0d59d9e9.js"
+    "static/js/main.b8ef8884.js"
   ]
 }
