@@ -1,7 +1,7 @@
 import './App.css';
 
 //Router
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 
 //Navigation Bar
 import NavBar from './components/navBar';
@@ -22,12 +22,12 @@ import Footer from './components/footer';
 function App() {
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/ReactJS" element={<NavBar />}>
-            <Route index element={<PageOne />} />
-            <Route path="/ReactJS/Saturday" element={<PageTwo />} />
-            <Route path="/ReactJS/Sunday" element={<PageThree />} />
+          <Route path="/" element={<NavBar />}>
+            <Route path="/" element={<PageOne />} />
+            <Route path="Saturday" element={<PageTwo />} />
+            <Route path="Sunday" element={<PageThree />} />
           </Route>
         </Routes>
       </BrowserRouter>
