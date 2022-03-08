@@ -1,0 +1,87 @@
+/* Body css */
+body{
+    background-color: #f2deca;
+}
+
+/*First Column Page Two*/
+.firstcolumn{
+    padding: 5%;
+    
+}
+
+/*First Row Page Two*/
+.firstrow{
+    height: auto;
+    background-color: #f2deca;
+
+}
+
+/*First container Page Two*/
+.firstcontainer{
+    height:  100%;
+    
+}
+
+/*Jumbotron Css*/
+.jumbotron{
+    background-color: #e4da904d;
+    border: 3px solid #ceccba;
+    padding: 2%;
+    margin: 1%;
+}
+
+/* Jumbotron CSS pageThree */
+.jumbotronPageThree{
+    background-color:  #f5dcd3;
+    border: 3px solid #86747e;
+    padding: 2%;
+}
+
+/*PageThree Div css*/
+div.pageThreediv{
+    background-color: #f2deca;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Image Page Three CSS */
+img.imageCss{
+    height: 60%;
+    width: 100%;
+}
+
+/* Image Page Three Css Two*/
+img.imageCssTwo{
+    height: 60%;
+    width: 100%;
+}
+
+/* Navbar CSS */
+nav.navbar{
+    z-index: 1;
+    position: sticky;
+    padding: 1%;
+    top: 0%;
+}
+
+/* Card Css */
+.card{
+    border: 5px solid black;
+    border-radius: 1.5%;
+}
+
+/* PageOne Lead font Css */
+p.lead{
+    font-size: 150%;
+    color: #616057;
+}
+
+/* Footer copyright Css */
+.footer-copyright{
+    background-color: #d9c8c5;
+}
+
+iframe{
+    display: none !important;
+}
